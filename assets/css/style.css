@@ -220,7 +220,7 @@ footer {
     background: #e84610;
 }
 
-#footer-detials {
+#footer-details {
     padding: 20px;
 }
 
@@ -280,11 +280,12 @@ footer {
 
 .progress-type {
     position: absolute;
-    left: 0px;
+    left: 0;
+    top: 50%;
     font-weight: 400;
     padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rbga(25, 25, 25, 0.2);
+    background-color: rgba(25, 25, 25, 0.2);
 }
 
 .progress-section {
@@ -311,7 +312,7 @@ footer {
 }
 
 .timeline-item:before {
-    content: attr(data-dates);
+    content: attr(data-date);
     position: absolute;
     left: 2.5em;
     top: 3em;
