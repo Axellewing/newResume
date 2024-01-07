@@ -209,3 +209,7 @@ img {
   -moz-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.25);
 }
+
+/* If you're having trouble rendering your map, add the following style to your style.css file:
+
+div#map {min-height: 360px;} */
